@@ -1,0 +1,168 @@
+/* Contact Footer Styling */
+footer {
+  margin-top: 5em;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left Side (Orange Color) */
+.footer-left {
+  flex: 1;
+  background: #f69000;
+  color: #fff;
+  padding: 4em 2em;
+  margin-bottom: -4.6em;
+}
+
+.footer-left h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.subscribe-box {
+  display: flex;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #fff;
+  padding: 8px;
+  font-family: "Merriweather", serif;
+}
+
+.subscribe-box input::placeholder {
+  color: #f8f8f8;
+}
+
+.subscribe-box button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.disclaimer {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+/* Right Side (Dark Color) */
+.footer-right {
+  flex: 2;
+  background: #11222c;
+  padding: 4em 3em;
+}
+
+.footer-section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-section h1 {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  color: #f69000;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-section h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #f69000;
+  margin: 6px auto 0;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: #53b1b1;
+  text-decoration: none;
+  font-family: "Work Sans";
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Bottom */
+.bottom {
+  background: #1c5858;
+  text-align: center;
+  padding: 1.2em 0;
+}
+
+.bottom p {
+  font-family: "Merriweather", serif;
+  color: #f6c624;
+  font-size: 15px;
+  margin-left: 35em;
+}
+
+/* Responsive*/
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-left,
+  .footer-right {
+    flex: unset;
+    width: 100%;
+  }
+  .footer-section-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-section-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
