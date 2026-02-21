@@ -1,0 +1,1077 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #F9F7F2;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body div img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+header nav{
+  margin-left: 5em;
+  margin-right: 10em;
+  text-align: center;
+  justify-content: center;
+  float: left;
+}
+
+header nav a{
+  font-size: 1.3em;
+}
+
+header img{
+  margin-right: -10em;
+  margin-left: 2em;
+  height: 22vh;
+  width: 17%;
+  max-height: 200px;
+}
+
+header .b1, header .b2{
+  font-size: 0.8em;
+  padding: 0.9em;
+}
+
+header .b2{
+  margin-right: 0em;
+}
+
+.d1 {
+  position: relative;
+  width: 100%;
+  height: 50em; 
+  overflow: hidden; 
+  z-index: 0;
+}
+
+.d1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  margin: 0;
+  display: block;
+}
+
+
+.d1 h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  white-space: nowrap;             
+  z-index: 1000;
+  margin: 0;
+  margin-top: -1.5em;
+  padding: 0 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #F8F6F0; 
+  font-weight: 500;
+  font-size: 4em;
+  z-index: 1000;
+}
+
+.d1 p{
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1000;
+  margin: 0;
+  padding: 0 1rem;
+  letter-spacing: 1px;
+  color: #F8F6F0; 
+  font-weight: 300;
+  font-size: 2.1em;
+  z-index: 1000;
+  text-align: center;
+}
+
+
+/*code for the about standspeakact*/
+.about-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 0.3rem;
+  display: inline-block;
+  margin-left: 7em;
+  margin-top: 2em;    
+}
+
+.about-title .yellow {
+  color: #f7931e; 
+}
+
+.about-title .blue {
+  color: #5bc0be; 
+}
+
+
+p{
+  font-family: 'Merriweather', serif;
+  width: 50%;
+  text-align: left;
+  margin-left: 26em;
+  font-size: 1.2em;
+  justify-content: center;
+}
+
+.d2{
+  padding-bottom: 10em;
+}
+
+/* mission and vision */
+.my-gradient-div {
+  background: linear-gradient(180deg, rgba(246, 144, 0, 0.2) 8%, rgba(83, 177, 177, 0.2) 84%);
+  color: white;
+  padding: 2rem;
+  padding-bottom: 10em;
+}
+
+
+.d3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+}
+
+.mission-img {
+  height: 4.1rem;
+  width: auto;
+  margin-top: 10em;
+  margin-left: 3.5em;
+}
+
+.d3 p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  width: 100%;
+  margin: 0;
+  margin-top: 5.5em;
+  color: black;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.image-card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid transparent;
+  width: 450px;   
+  height: 450px;  
+}
+
+.image-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.d4, .d5 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.d4 {
+  width: 55%;
+  padding: 2rem;
+}
+
+.d4 img {
+  width: 300px;
+  margin-left: 15em;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.d4 p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #222;
+  width: 70%;
+  margin-bottom: 1rem;
+  margin-left: 11em;
+  margin-top: 2em;
+}
+
+.d5 {
+  margin: 0 auto;
+  width: 40%;
+  padding: 2rem;
+}
+
+.d5 img {
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-left: -10em;
+}
+
+.a1{
+  font-weight: 0;
+}
+
+
+/*code for the our story*/
+
+.story-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.story-text {
+  flex: 1 1 500px;
+  position: relative;
+}
+
+.story-text img {
+  display: block;
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
+.story-text p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.story-text p span.orange {
+  font-family: 'Work Sans', sans-serif;
+  color: #f7931e;
+  font-size: 5em;
+  margin-left: 1.5em;
+}
+
+.story-text p span.teal {
+  font-family: 'Work Sans', sans-serif;
+  color: #26a69a;
+  font-size: 5em;
+  margin-left: 3.5em;
+
+}
+
+.story-text p span.black {
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 5em;
+  margin-left: 2.7em;
+
+}
+
+.story-text p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  width: 72%;
+}
+
+.story-image {
+  flex: 1 1 400px;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-left: -7em;
+}
+
+.story-conclusion {
+  font-size: 1.1rem;
+  margin-top: -1rem;
+  width: 90%;
+  margin-left: 11em;
+  margin-left: -7em;
+}
+
+.story-conclusion p {
+  font-family: 'Merriweather', serif;
+}
+
+/* Meet the developers section */
+.developers {
+  text-align: center;
+  padding: 2em;
+}
+
+.dev-img {
+  display: block;
+  margin: 0 auto 2em auto;
+  width: 35em;
+  height: auto;
+}
+
+.developers fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+  margin: 3em auto;
+  flex-wrap: wrap;
+}
+
+.developers div {
+  text-align: center;
+  max-width: 350px;
+}
+
+.developers div img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
+
+.developers h2 {
+  font-size: 1.4em;
+  margin: 0.6em 0 0.3em 0;
+}
+
+.developers p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+}
+
+.f1 p, .f2 p{
+  text-align: center;
+  white-space: nowrap;
+}
+
+.person2 p, .person3 p, .person4 p, .person5 p{
+  margin: 0 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* What we cover section */
+.what-we-cover {
+  text-align: center;
+  padding: 10em 2em 2em 2em;
+  font-family: Arial, sans-serif;
+}
+
+.what-we-cover > fieldset:first-of-type {
+  border: none;
+  max-width: 1200px;
+  margin: 0 auto 3em auto;
+}
+
+.what-we-cover > fieldset:first-of-type p {
+  font-size: 1.5em;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.what-we-cover > fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.my-grad {
+  border: none;
+  background: #f8fdfd;
+  width: 35em;
+  margin: 0 2.5em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.f10, .f12, .f14, .f16 {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.f10 img, .f12 img, .f14 img, .f16 img {
+  inset: 0;            
+  object-fit: cover;   
+  object-position: top;
+}
+
+.f11, .f13, .f15, .f17 {
+
+  border: none;
+}
+
+.orange {
+  color: orange;
+}
+
+.teal {
+  color: #35a2a2; 
+}
+
+.f11 h1, .f13 h1, .f15 h1, .f17 h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  margin: 0 0 0.5em 0;
+  line-height: 1.4em;
+}
+
+.f11 p, .f13 p, .f15 p, .f17 p {
+  font-size: 1.2em;
+  font-family: 'Merriweather', serif;
+  color: #222;
+  line-height: 1.75em;
+  margin: 0;
+  width: 100%;
+}
+
+.my-grad{
+  background: linear-gradient(180deg, rgba(246, 144, 0, 0.2) 8%, rgba(83, 177, 177, 0.2) 84%);
+}
+
+.fd2 p{
+  float: left;
+}
+
+.fd1, .fd2 {
+  margin-bottom: 1em;
+}
+
+.fcover {
+  display: flex;
+  flex-direction: column;
+  gap: 1em; 
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+.cover-img {
+  width: 28em;
+  max-width: 100%;
+  height: auto;
+}
+
+.fd2 p{
+  margin-left: 2em;
+  width: 100%;
+}
+
+.f11, .f13, .f15, .f17 {
+  padding: 3em;
+}
+
+/* The standsspeakact dispatch */
+.about-titles {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 0.3rem;
+  display: inline-block;
+  margin-left: 7em;
+  margin-top: 2em;    
+  color: white;
+}
+
+.about-titles .yellow {
+  color: #f7931e; 
+}
+
+.about-titles .blue {
+  color: #5bc0be; 
+}
+
+.dispatch{
+  background-color: #00312E;
+  color: white;
+}
+
+.dispatch button {
+  padding: 1em;
+  background-color: #f7931e;
+  color: white;
+  border: 2px solid #53B1B1;
+  border-radius: 3px;
+  cursor: pointer;           
+  transition: all 0.2s ease; 
+  width: 20%;
+  margin-top: 1em;
+  margin-left: 40em;
+}
+
+.dispatch button:hover {
+  background-color: #e07e0f; 
+}
+
+.dispatch button:active {
+  transform: scale(0.97);    
+  background-color: #cc6f0e; 
+}
+
+.dispatch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #003333;
+  color: white;
+}
+
+.fdispatch {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  border: none;
+  padding: 0;
+}
+
+.fdispatch p {
+  font-size: 1.7rem;
+  max-width: 100%;
+  margin: 0;
+  white-space: nowrap;
+  margin-left: 4em;
+  font-weight: 0;
+  font-family: 'Merriweather', serif;
+
+}
+
+.fdispatch h1{
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 0em;
+  font-size: 4em;
+  margin-right: -3em;
+  margin-left: 1.2em;
+}
+
+.fdispatch button:hover {
+  background-color: #e07e0f;
+  transform: scale(1.1);
+}
+
+.circle-img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* footer */
+
+.footer-section p{
+  margin-left: 7.5em;
+}
+
+.footer-section h1{
+  margin-right: -2em;
+}
+
+.bottom p{
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+
+@media (max-width: 992px) {
+
+  header nav{
+    margin-right: 0em;
+  }
+
+  header nav a{
+    font-size: 1.1em;
+  }
+
+  header img{
+    margin-right: -10em;
+    margin-left: 2em;
+    height: 16vh;
+    width: 30%;
+    max-height: 200px;
+  }
+
+  header .b1, header .b2{
+    font-size: 0.8em;
+    padding: 0.7em 1em;
+  }
+
+  header .b2{
+    margin-right: 1em;
+  }
+
+  .d1 img{
+    margin-top: -3.5em;
+    margin-left: -1em;
+  }
+  .d1 {
+    height: auto;
+    padding: 4em 1em;
+    text-align: center;
+  }
+
+  .d1 h1 {
+    font-size: 2.2em;
+    top: 50%;
+  }
+
+  .d1 p {
+    font-size: 1.4em;
+    width: 90%;
+    top: 60%;
+  }
+
+  /* About Title */
+  .about-title {
+    margin-left: 2em;
+    font-size: 3rem;
+  }
+
+  p {
+    width: 85%;
+    margin-left: 2em;
+    font-size: 1em;
+  }
+
+  /* Mission / Vision Section */
+  .d3 {
+    flex-direction: column;
+    padding: 2rem 2rem;
+    align-items: center;
+  }
+
+  .d3 p {
+    margin-top: 2em;
+    font-size: 1.1rem;
+  }
+
+  .mission-img {
+    margin: 2em auto 1em auto;
+    height: 3rem;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .d4, .d5 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .d4 img {
+    margin: 0 auto 1em auto;
+  }
+
+  .d4 p {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .d5 img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Story Section */
+  .story-section {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+
+  .story-text, .story-image {
+    width: 100%;
+  }
+
+  .story-image img {
+    margin: 0 auto;
+  }
+
+  .story-text p span {
+    font-size: 3em !important;
+    margin-left: 0 !important;
+  }
+
+  .story-text p {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .story-conclusion {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  /* Developers */
+  .dev-img {
+    width: 100%;
+  }
+
+  .developers fieldset {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .developers .f1 div, .developers .f2 div{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .person2 p, .person3 p, .person4 p, .person5 p, .person6 p{
+    margin-left: 1.2em;
+  }
+
+  /* What We Cover */
+  .what-we-cover > fieldset {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .my-grad {
+    width: 100%;
+    margin: 0;
+  }
+
+  .fcover {
+    flex-direction: column;
+  }
+
+  .cover-img {
+    width: 100%;
+  }
+
+  .f11, .f13, .f15, .f17 {
+    padding: 2em;
+  }
+
+  /* Dispatch Section */
+  .dispatch {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 1em;
+  }
+
+  .fdispatch {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .fdispatch p {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .fdispatch h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+
+  .dispatch button {
+    width: 60%;
+    margin: 2em auto 0 auto;
+  }
+
+  /* Footer */
+  .footer-section p {
+    margin-left: 2em;
+  }
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .my-grad img{
+    height: 10%;
+  }
+
+  header .nav{
+    font-size: 5em !important;
+  }
+
+  header img{
+    font-size: 10em !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  header img {
+    height: 4.5em;
+    margin-right: 30em;
+    margin-left: 1em;
+  }
+
+  header .menu{
+    margin-top: 1.7em;
+  }
+
+  header nav{
+    margin-top: 0;
+    margin-bottom: -8em;
+  }
+
+  header button{
+    margin-top: 10em;
+  }
+
+  .actions{
+    margin-bottom: 10em;
+  }
+
+  .b1, .b2{
+    margin-bottom: -10em;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 6px 10px;
+    border: 2px solid #F69000;
+    color: #F69000;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: -7em;
+    margin-left: 12em;
+  }
+  /* Hero Section */
+  .d1 {
+    height: 28em;
+    padding: 0 0.5em;
+  }
+
+  .d1 img{
+    margin-left: -0.5em;
+  }
+  .d1 h1 {
+    width: 100%;
+    font-size: 1.8em;        
+    white-space: normal;  
+    max-width: 85vw;         
+    text-align: center;
+    line-height: 1.2;
+    top: 36%;                
+    padding: 0 0.25em;
+  }
+  .d1 p {
+    margin-left: -0.5em;
+    font-size: 1em;
+    width: 90%;
+    top: 66%;
+  }
+
+  /* About Title & Intro */
+  .about-title {
+    margin-left: 1em;
+    font-size: 2.6rem;
+  }
+  .d2 p {
+    width: 90%;
+    margin: 0.5em auto;
+    font-size: 1em;
+  }
+
+  /* Mission / Vision Section */
+  .d3 {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    align-items: center;
+  }
+  .d3 p {
+    margin-top: 1.2em;
+    font-size: 1rem;
+  }
+  .mission-img {
+    margin: 1em auto 0.5em auto;
+    height: 2.5rem;
+  }
+  .image-row {
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 1em;
+  }
+  .image-card {
+    width: 100%;
+    height: auto;
+  }
+  .image-card img {
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .d4, .d5 { 
+    width: 100%; 
+    padding: 1rem; 
+  }
+  .d4 img { 
+    margin: 0 auto 1em auto; 
+  }
+  .d4 p { 
+    width: 100%; 
+    font-size: 1rem;
+    margin: 0.5em auto; 
+  }
+  .d5 img { 
+    width: 100%; 
+    margin: 0 auto; 
+  }
+
+  /* Story Section */
+  .story-section { 
+    text-align: center;
+    padding: 3rem 1rem; 
+  }
+  .story-text, .story-image { 
+    width: 100%; 
+    text-align: center;
+  }
+
+  .store{
+    margin: 0 auto;
+  }
+  .story-image img {
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  .story-text p span { 
+    font-size: 2.2em !important; 
+    margin-left: 0 !important; 
+  }
+  .story-text p { 
+    text-align: center;
+    font-size: 0.95em; 
+    width: 100%; 
+  }
+  .story-conclusion { 
+    width: 92%; 
+    margin: 1em auto; 
+  }
+
+  /* Developers */
+  .dev-img { 
+    width: 90%; 
+  }
+  .developers fieldset { 
+    gap: 1.2em; 
+  }
+  .person2 p, .person3 p, .person4 p, .person5 p{ 
+    margin: 0; 
+  }
+
+  /* What We Cover */
+  .what-we-cover { 
+    padding: 4em 1em 1em; 
+  }
+  .what-we-cover > fieldset { 
+    flex-direction: column; 
+    gap: 1.2em; 
+  }
+  .my-grad { 
+    width: 90%; 
+    margin: 0; 
+  }
+  .f11, .f13, .f15, .f17 { 
+    padding: 1.2em; 
+  }
+
+  /* Dispatch */
+  .dispatch { 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 2em 1em; 
+  }
+  .fdispatch { 
+    width: 100%; 
+  }
+  .fdispatch h1 { 
+    font-size: 2.6em; 
+    margin: 0.5em 0;
+  }
+  .fdispatch p { 
+    font-size: 1.1rem; 
+    margin-left: 0; 
+  }
+  .dispatch button { 
+    width: 80%; 
+    margin: 1.5em auto 0; 
+  }
+  .footer-section p{
+    margin-right: 20em;
+  }
+
+  .footer-section{
+    margin-left: -2em;
+  }
+}
+

@@ -1,0 +1,256 @@
+/* Login Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.welcome h2,
+.right h2 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Left Side */
+.left {
+  background-color: #11222c;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.logo img {
+  max-width: 400px;
+  height: auto;
+}
+
+.welcome h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 3em;
+}
+
+.welcome p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+  margin-left: 8em;
+}
+
+/* Buttons Styling */
+.btn-google,
+.btn-login {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.btn-google img,
+.btn-login img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn-google:hover,
+.btn-login:hover {
+  transform: scale(1.05);
+}
+
+/* Gradient Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  margin: 0 10px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #fca311, #38bdf8) 1;
+}
+
+
+/* Form Section */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #fff;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background-color: #11222c;
+  color: #fff;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.form-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-options a {
+  color: #fca311;
+  text-decoration: none;
+}
+
+.form-options a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 2px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #53b1b1, #f8f6f0, #3cbebe);
+  transition: transform 0.3s ease;
+}
+
+.lgn-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 174px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f8f6f0;
+  background: #f69000;
+  line-height: normal;
+  border-radius: 3px;
+  transition: fill 0.4s ease, transform 0.3s ease;
+}
+
+.login-button:hover {
+  color: #f69000;
+  transform: scale(1.05);
+}
+
+/* Sign Up Here */
+.footer {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #fca311;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Right Side */
+.right {
+  background: url("../images/login_signup_image.png") center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: #fff;
+}
+
+.right .overlay-text {
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 3em;
+}
+
+.right h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+.right p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .right {
+    display: none;
+  }
+}
